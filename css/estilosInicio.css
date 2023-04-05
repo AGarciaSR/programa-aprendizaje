@@ -35,7 +35,7 @@ img#marcoBR{bottom:0;right:0;}
 #contenedor1{color:white;margin-top: 2%;line-height: 120%;}
 #contenedor1 .container, #contenedor2 .container{max-width: 90% !important;padding: 10px;font-size: 1em;}
 #contenedor1 b{color:#007aff}
-#contenedor2{margin-top: 1%;}
+#contenedor2{margin-top: 0.5%;}
 #contenedor2 .container{text-align: center;}
 #contenedor2 #contiene{border-right: 2px solid #007aff;padding: 0% 2% 0 0;}
 img.flecha{position: absolute;}
@@ -64,7 +64,7 @@ span.extra{font-size: 0.8em;font-weight: bold;line-height: 1.1;color: red;text-a
 span.extra span{font-size: 64%;font-weight:500;}
 section#bannerProm{background: yellow;text-align: center;padding: 0.1%;position: fixed;width: 100%;z-index: 10;transition-duration: 2s;top:0;}
 section#bannerProm a:hover{color:#ff3837;}
-section#contacto{background: black;color:white;position:relative;z-index:-1;font-weight:600;}
+section#contacto{background: black;color:white;position:relative;z-index:0;font-weight:600;}
 section#contacto a{font-size: initial;color:white;}
 .btn{transition-duration: 0.5s !important;transition:inherit;margin-top:5%;font-size:1.1em;font-weight:bold;}
 .btn:hover{transform: scale(1.3);margin-top:5%;}
@@ -76,7 +76,7 @@ div.sence span{background: linear-gradient(to left, #00FFA3, #DC1FFF);background
 #contacto .cell2{text-align:center;}
 #contacto .cell3{text-align:center;}
 #contacto .row div{padding: 1% 2%;}
-#footer{background: white;margin-top:1%;}
+#footer{background: white;margin-top:0%;}
 #footer span.nombre{border: 2px solid #000000;padding: 3% 4%;background: url(../img/btn.png) center center;font-size: 1.1em;}
 #footer span.nombre:hover{animation-name: moveBackground;animation-duration: 4s;animation-iteration-count: infinite;animation-direction: alternate;}
 .logosFinales{text-align: center;padding: 0.5% 0;}
@@ -100,7 +100,7 @@ h1 b{font-weight: 600;}
 p{font-family: 'ITC Avant Garde Gothic';color:white;}
 p.etapas{width: fit-content;padding: 0% 12%;color: white;border-radius: 70px;font-weight: bold;background-color: #39b54a;font-size: 1.3vw;display: inline-block;font-family: 'ITC Avant Garde Gothic';margin: 5% 0%;}
 p.tituloEtapa{font-size: 1.5vw;font-family: 'ITC Avant Garde Gothic';font-weight: 700;line-height: 120%;}
-p.parrafoIntro{font-family: 'ITC Avant Garde Gothic';font-size:0.9em;text-align: justify;margin-top:2%;line-height: 1.4;}
+p.parrafoIntro{font-family: 'ITC Avant Garde Gothic';font-size:1em;text-align: justify;margin-top:2%;line-height: 1.3;}
 p.parrafoIntro b, strong{color:#007aff;}
 h1{font-size:1em;margin-bottom:2%;text-align: left;color: black;}
 #carruselLogos h1{color: white;text-align: center;font-size: 1.7em;font-weight: bold;margin-bottom: 1%;}
