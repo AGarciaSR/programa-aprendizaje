@@ -63,6 +63,7 @@ span.desc{background: red;color: white;border-radius: 20px;padding: 0px 4px;font
 span.extra{font-size: 0.8em;font-weight: bold;line-height: 1.1;color: red;text-align: center;/*margin-top: 4px;*/display: block;}
 span.extra span{font-size: 64%;font-weight:500;}
 section#bannerProm{background: yellow;text-align: center;padding: 0.1%;position: fixed;width: 100%;z-index: 10;transition-duration: 2s;top:0;}
+section#bannerProm a{font-size: 0.7em;}
 section#bannerProm a:hover{color:#ff3837;}
 section#contacto{background: black;color:white;position:relative;z-index:0;font-weight:600;}
 section#contacto a{font-size: initial;color:white;}
@@ -277,7 +278,8 @@ input[type=checkbox]
 
 @media screen and (max-width: 500px) {
     h1{font-size:0.65em;}
-    #contenedor2{/*height:70%;*/}
+    #contenedor1{margin-top: 15%;line-height: 150%;}
+    #contenedor2 #contiene {border-right: none;}
     #contenedor3{/*height: 59vh;*/overflow-y: scroll;}
     #contenedor4{margin-top:20%;}
     img#logoPrograma{width:80%;}
@@ -293,7 +295,7 @@ input[type=checkbox]
     div#contacto{margin-top: 30%;margin-bottom:0;}
     div#contacto .col-md-3{margin-bottom:5%;}
     p.etapas{font-size:7vw;}
-    p.parrafoIntro{font-size:1.2em;padding: 0% 8%;}
+    p.parrafoIntro{font-size:1.2em;padding: 0%;margin-top: 5%;}
     p.tituloEtapa{font-size: 10vw;}
     li{font-size: 4.5vw;}
     .col-md-3 a{width:100%;}
@@ -308,14 +310,19 @@ input[type=checkbox]
     .logosFinales div{text-align:center;}
     .logosFinales img{width:60%;}
     p.text{font-size: 0.45em !important;}
-    .btn{font-size: 0.5em;padding: 2%;}
+    .btn{font-size: 0.8em;padding: 2%;}
     div.sence{font-size: 0.8em;width: 80%;margin-left: 10%;font-weight: bold;margin-top: 4px;}
     .card .modalidad{margin: 3% 0%;}
     .card .stats{font-size: 0.4em !important;margin: 2% 0%;}
     .card .text{margin: 2% 0%;}
     .extra{margin-top: 0 !important;}
     img#logoChile{width:20%;}
-
+    div#flujograma{margin-top: 15%;margin-bottom: 15%;}
+    #carruselCursos{height: 13%;}
+    #accesoCursoCont{margin-top: 4%;}
+    .row{margin:0;}
+    #caracteristicas{padding: 0;}
+    .input100{font-size: 1em;}
 }
 @media screen and (min-width: 500px){
     .mobile{display:none !important;}
