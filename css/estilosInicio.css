@@ -52,11 +52,11 @@ h1#tituloCoaches{margin-top: 10%;}
 .col-md-3{padding:0;}
 #carruselLogos{background:black;height:fit-content;padding: 1% 0%;}
 .splide__slide{text-align: center; align-self: center;}
-#carruselCursos{height:50%;overflow-x:hidden;width:100%;-ms-overflow-style: none;scrollbar-width: none;margin: 9% 0% 16% 0%;}
+#carruselCursos{height:50%;overflow-x:hidden;width:100%;-ms-overflow-style: none;scrollbar-width: none;margin: 4% 0% 0% 0%;}
 #carruselCursos::-webkit-scrollbar {display: none;}
 #carruselCursos .splide__track{overflow: visible;}
 #carruselCursos li{transition-duration: 1s;padding: 0% 1%;}
-#carruselCursos li:hover{transform: scale(1.9);z-index:5;}
+#carruselCursos li:hover{transform: scale(1.2);z-index:5;}
 #carruselCursos li img{-webkit-box-shadow: 10px 10px 43px -12px rgba(0,0,0,0.75);-moz-box-shadow: 10px 10px 43px -12px rgba(0,0,0,0.75);box-shadow: 10px 10px 43px -12px rgba(0,0,0,0.75);}
 .splide__pagination {bottom: 2.5em;}
 span.desc{background: red;color: white;border-radius: 20px;padding: 0px 4px;font-weight: 600;border:1px solid red;font-size:0.8em;}
@@ -76,7 +76,9 @@ div.sence span{background: linear-gradient(to left, #00FFA3, #DC1FFF);background
 #contacto .cell3{text-align:center;}
 #contacto .row div{padding: 1% 2%;}
 #footer{background: white;margin-top:4%;}
-.logosFinales img{width:100%;}
+#footer span.nombre{border: 2px solid #000000;padding: 3% 4%;background: #ff3738;font-size: 1.1em;}
+.logosFinales{text-align: center;padding: 0.5% 0;}
+.logosFinales img{width:50%;}
 
 .card{border: none;}
 .wrapper{min-height: fit-content !important;}
@@ -89,6 +91,7 @@ li.is-visible{opacity:1;}
 
 
 span.nombre {color: white !important;border: 2px solid #007aff;border-radius: 40px;padding: 0.5% 2%;font-weight: 600;font-size: 1em;}
+#accesoCurso{background: #007aff !important;cursor: pointer;}
 h1,h3{font-family: 'ITC Avant Garde Gothic';width: 100%;}
 h1 b{font-weight: 600;}
 p{font-family: 'ITC Avant Garde Gothic';color:white;}
