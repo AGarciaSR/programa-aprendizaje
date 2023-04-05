@@ -32,7 +32,7 @@ img#marcoTL{top:0;left:0;}
 img#marcoTR{top:0;right:0;}
 img#marcoBL{bottom:0;left:0;}
 img#marcoBR{bottom:0;right:0;}
-#contenedor1{color:white;margin-top: 1%;}
+#contenedor1{color:white;margin-top: 2%;line-height: 120%;}
 #contenedor1 .container, #contenedor2 .container{max-width: 90% !important;padding: 10px;font-size: 1em;}
 #contenedor1 b{color:#007aff}
 #contenedor2{margin-top: 1%;}
@@ -62,7 +62,8 @@ h1#tituloCoaches{margin-top: 10%;}
 span.desc{background: red;color: white;border-radius: 20px;padding: 0px 4px;font-weight: 600;border:1px solid red;font-size:0.8em;}
 span.extra{font-size: 0.8em;font-weight: bold;line-height: 1.1;color: red;text-align: center;/*margin-top: 4px;*/display: block;}
 span.extra span{font-size: 64%;font-weight:500;}
-section#bannerProm{background: yellow;text-align: center;padding: 0.3%;position: fixed;width: 100%;z-index: 10;transition-duration: 2s;}
+section#bannerProm{background: yellow;text-align: center;padding: 0.1%;position: fixed;width: 100%;z-index: 10;transition-duration: 2s;top:0;}
+section#bannerProm a:hover{color:#ff3837;}
 section#contacto{background: black;color:white;position:relative;z-index:-1;font-weight:600;}
 section#contacto a{font-size: initial;color:white;}
 .btn{transition-duration: 0.5s !important;transition:inherit;margin-top:5%;font-size:1.1em;font-weight:bold;}
