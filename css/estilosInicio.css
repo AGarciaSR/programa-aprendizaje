@@ -1,4 +1,4 @@
-body{font-family: 'ITC Avant Garde Gothic' !important;height:100vh;margin:0;width:100vw;background: url(../img/fondo.jpg) no-repeat fixed center;overflow-x: hidden;background-size: cover;background-position-y: top;font-weight: 500;}
+body{font-family: 'ITC Avant Garde Gothic' !important;height:fit-content;margin:0;width:100vw;background: url(../img/fondo.jpg) no-repeat fixed center;overflow-x: hidden;background-size: cover;background-position-y: top;font-weight: 500;}
 img#logo{width:18%;position: absolute;right: 5%;top: 8%;}
 div#contContenido{opacity:0.4;border-radius: 60px 60px 60px 60px;opacity: 0;width: 91.5%;padding: 2.05%;position: relative;left: 2%;margin-bottom: 2%;color: white;transition-duration: 0.9s;}
 div#contCursos{margin-top: 1%;margin-left: 5%;width: 90%;font-size: 1.5vw;}
@@ -52,7 +52,7 @@ h1#tituloCoaches{margin-top: 10%;}
 .col-md-3{padding:0;}
 #carruselLogos{background:black;height:fit-content;padding: 1% 0%;}
 .splide__slide{text-align: center; align-self: center;}
-#carruselCursos{height:50%;overflow-x:hidden;width:100%;-ms-overflow-style: none;scrollbar-width: none;margin: 4% 0% 0% 0%;}
+#carruselCursos{height:20%;overflow-x:hidden;width:100%;-ms-overflow-style: none;scrollbar-width: none;}
 #carruselCursos::-webkit-scrollbar {display: none;}
 #carruselCursos .splide__track{overflow: visible;}
 #carruselCursos li{transition-duration: 1s;padding: 0% 1%;}
@@ -76,7 +76,7 @@ div.sence span{background: linear-gradient(to left, #00FFA3, #DC1FFF);background
 #contacto .cell2{text-align:center;}
 #contacto .cell3{text-align:center;}
 #contacto .row div{padding: 1% 2%;}
-#footer{background: white;margin-top:4%;}
+#footer{background: white;margin-top:1%;}
 #footer span.nombre{border: 2px solid #000000;padding: 3% 4%;background: url(../img/btn.png) center center;font-size: 1.1em;}
 #footer span.nombre:hover{animation-name: moveBackground;animation-duration: 4s;animation-iteration-count: infinite;animation-direction: alternate;}
 .logosFinales{text-align: center;padding: 0.5% 0;}
