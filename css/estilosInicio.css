@@ -25,7 +25,6 @@ div.preguntasFrecuentes h1.incluye{margin-top:1em;}
 form{color: white;width: 35%;font-size: 1.5vw;margin-left: 32.5%;margin-top: 2%;}
 form h4{font-size: 1.2vw;}
 img#cursosAbiertos{width:100%;}
-img#esquema{margin: 4% 0%;}
 img#logoAporte{width: 100%;}
 img#logoChile{width: 48%;margin-right: 0%;margin-top: 0.5%;}
 img#logoPrograma{width:100%;}
@@ -33,9 +32,12 @@ img#marcoTL{top:0;left:0;}
 img#marcoTR{top:0;right:0;}
 img#marcoBL{bottom:0;left:0;}
 img#marcoBR{bottom:0;right:0;}
-#contenedor1{color:white;}
-#contenedor1 .container{margin-top: 1%;max-width: 90% !important;padding: 15px;font-size: 1em;}
+#contenedor1{color:white;margin-top: 1%;}
+#contenedor1 .container, #contenedor2 .container{max-width: 90% !important;padding: 10px;font-size: 1em;}
 #contenedor1 b{color:#007aff}
+#contenedor2{margin-top: 1%;}
+#contenedor2 .container{text-align: center;}
+#contenedor2 #contiene{border-right: 2px solid #007aff;padding: 0% 2% 0 0;}
 img.flecha{position: absolute;}
 img.icons{width: 70%;}
 img.imgIncluye{margin-top:5%;width:100%;}
@@ -75,7 +77,7 @@ div.sence span{background: linear-gradient(to left, #00FFA3, #DC1FFF);background
 #contacto .row div{padding: 1% 2%;}
 #footer{background: white;margin-top:4%;}
 .logosFinales img{width:100%;}
-strong{color:#007aff;}
+
 .card{border: none;}
 .wrapper{min-height: fit-content !important;}
 .splide__arrow{border: 1px solid white !important;background: none;}
@@ -86,13 +88,14 @@ li{opacity:0;}
 li.is-visible{opacity:1;}
 
 
-
+span.nombre {color: white !important;border: 2px solid #007aff;border-radius: 40px;padding: 0.5% 2%;font-weight: 600;font-size: 1em;}
 h1,h3{font-family: 'ITC Avant Garde Gothic';width: 100%;}
 h1 b{font-weight: 600;}
 p{font-family: 'ITC Avant Garde Gothic';color:white;}
 p.etapas{width: fit-content;padding: 0% 12%;color: white;border-radius: 70px;font-weight: bold;background-color: #39b54a;font-size: 1.3vw;display: inline-block;font-family: 'ITC Avant Garde Gothic';margin: 5% 0%;}
 p.tituloEtapa{font-size: 1.5vw;font-family: 'ITC Avant Garde Gothic';font-weight: 700;line-height: 120%;}
-p.parrafoIntro{font-family: 'ITC Avant Garde Gothic';font-size:1.5em;text-align: justify;margin-top:2%;line-height: 1.4;}
+p.parrafoIntro{font-family: 'ITC Avant Garde Gothic';font-size:0.9em;text-align: justify;margin-top:2%;line-height: 1.4;}
+p.parrafoIntro b, strong{color:#007aff;}
 h1{font-size:1em;margin-bottom:2%;text-align: left;color: black;}
 #carruselLogos h1{color: white;text-align: center;font-size: 1.7em;font-weight: bold;margin-bottom: 1%;}
 h3{font-size: 2.2rem;}
