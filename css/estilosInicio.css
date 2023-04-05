@@ -22,7 +22,7 @@ div.cursos img.flecha{position: absolute;right: 3%;width: 8%;bottom: 10%;}
 div.preguntasFrecuentes{position: absolute;right: 4%;width: 26%;background: rgba(0, 0, 0, 0.64);font-size:1.1vw;padding: 2%;color: rgb(255, 255, 255);top: 17%;border-radius: 25px;}
 div.preguntasFrecuentes h1{margin-top:0;}
 div.preguntasFrecuentes h1.incluye{margin-top:1em;}
-form{color: white;width: 35%;font-size: 1.5vw;margin-left: 32.5%;margin-top: 2%;}
+form{color: white;width: 100%;font-size: 1.2em;margin-top: 5%;}
 form h4{font-size: 1.2vw;}
 img#cursosAbiertos{width:100%;}
 img#logoAporte{width: 100%;}
@@ -77,7 +77,8 @@ div.sence span{background: linear-gradient(to left, #00FFA3, #DC1FFF);background
 #contacto .cell3{text-align:center;}
 #contacto .row div{padding: 1% 2%;}
 #footer{background: white;margin-top:4%;}
-#footer span.nombre{border: 2px solid #000000;padding: 3% 4%;background: #ff3738;font-size: 1.1em;}
+#footer span.nombre{border: 2px solid #000000;padding: 3% 4%;background: url(../img/btn.png) center center;font-size: 1.1em;}
+#footer span.nombre:hover{animation-name: moveBackground;animation-duration: 4s;animation-iteration-count: infinite;animation-direction: alternate;}
 .logosFinales{text-align: center;padding: 0.5% 0;}
 .logosFinales img{width:50%;}
 
@@ -91,6 +92,7 @@ li{opacity:0;}
 li.is-visible{opacity:1;}
 
 
+h2{font-weight: bold;}
 span.nombre {color: white !important;border: 2px solid #007aff;border-radius: 40px;padding: 0.5% 2%;font-weight: 600;font-size: 1em;}
 #accesoCurso{background: #007aff !important;cursor: pointer;}
 h1,h3{font-family: 'ITC Avant Garde Gothic';width: 100%;}
@@ -163,10 +165,6 @@ ul.webinar li::before{content: "\2022";color: #ccff01;
         color: #fff;
         top: 5px;
     }
-    @keyframes inscribete {
-        from {font-size: 130%;}
-        to {font-size: 180%;}
-      }
 /*.seleccionado{background: rgba(0,0,0,0.4) !important;color: #ec2b06 !important;border-radius: 45px 45px 0px 0px !important;}*/
 .seleccionado span{color: white !important;}
 .flechaSeleccionado{transition-duration: 0.8s;transform: rotate(0deg);-webkit-transform: rotate(0deg);}

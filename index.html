@@ -36,6 +36,8 @@
     <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
     <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/estilosInicio.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
@@ -207,27 +209,40 @@
         </div>
       </div>
     </section>
-    <div class="modal fade" id="modalAccesoCurso" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalAccesoCurso" tabindex="-1" role="dialog" aria-labelledby="tituloModal" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h2 class="modal-title" id="tituloModal">Solicita acceso a este curso</h2>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
+            Con estos datos podremos generar un usuario para ti y darte acceso a este curso por 3 días.
+            <form id="matricula" action="datosAccesoCurso.php" method="POST" autocomplete="off">
+              <div class="wrap-input100 validate-input" data-validate = "Introduce tu nombre completo">
+                  <input id="Nombre" class="input100" type="text" name="Nombre" placeholder="Nombre y apellidos" required value=""/>
+                  <span class="focus-input100"></span>
+              </div>
+              <div class="wrap-input100 validate-input" data-validate = "Introduce un e-Mail válido">
+                  <input id="eMail" class="input100" type="email" name="eMail" placeholder="Dirección de correo" required value=""/>
+                  <span class="focus-input100"></span>
+              </div>
+              <div class="wrap-input100 validate-input" data-validate = "Introduce un teléfono de contacto">
+                  <input id="telefono" class="input100" type="text" name="Telefono" placeholder="Teléfono de contacto" required value=""/>
+                  <span class="focus-input100"></span>
+              </div>
+          </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary"  name="buttonLogin" id="buttonLogin"onclick="enviaForm()">Enviar datos</button>
           </div>
         </div>
       </div>
     </div>
   </body>
-  <link rel="stylesheet" href="css/estilosInicio.css?cache=2">
   <script>
     if ($("body").width() < 500) {
       var cursos = 3;
