@@ -26,14 +26,16 @@ form{color: white;width: 35%;font-size: 1.5vw;margin-left: 32.5%;margin-top: 2%;
 form h4{font-size: 1.2vw;}
 img#cursosAbiertos{width:100%;}
 img#esquema{margin: 4% 0%;}
-img#logoAporte{width: 34%;margin-left: 0%;margin-top: 1%;}
+img#logoAporte{width: 100%;}
 img#logoChile{width: 48%;margin-right: 0%;margin-top: 0.5%;}
-img#logoPrograma{width:38%;}
+img#logoPrograma{width:100%;}
 img#marcoTL{top:0;left:0;}
 img#marcoTR{top:0;right:0;}
 img#marcoBL{bottom:0;left:0;}
 img#marcoBR{bottom:0;right:0;}
-/*img#programa1,img#programa2,img#programa3,img#programa4,img#programa5,img#programa6,img#programa7,img#programa8,img#programa9,img#programa10,img#programa11{opacity:0;}*/
+#contenedor1{color:white;}
+#contenedor1 .container{margin-top: 1%;max-width: 90% !important;padding: 15px;font-size: 1em;}
+#contenedor1 b{color:#007aff}
 img.flecha{position: absolute;}
 img.icons{width: 70%;}
 img.imgIncluye{margin-top:5%;width:100%;}
@@ -279,7 +281,7 @@ input[type=checkbox]
     ul{padding-left: 5%;}
     .mobile{display:initial;}
     .desktop{display:none !important;}
-    img#logoAporte{width:15%;margin-top:2%;margin-right: 3%;}
+    img#logoAporte{width:70%;margin:5% 0;}
     img#logoTricot{width:39%;margin-top:1%;}
     img.iconos{display:none;}
     div.separador{padding-top: 20%;}

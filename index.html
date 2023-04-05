@@ -5,10 +5,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164882022-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
+      function gtag() {dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-164882022-1');
     </script>
@@ -43,27 +40,28 @@
   </head>
 
   <body>
-    <section id="contenedor1" class="container-fluid" style="margin-top:2%;">
-      <div class="container" style="max-width: 100% !important;">
-        <div class="row">
-          <div class="col-xs-12 mobile" style="text-align:center; margin-top: auto;margin-bottom: auto;">
-            <img id="logoAporte" src="img/logoAporte.png"/>
-            <img id="logoChile" src="img/chile.png" />
+    <section id="contenedor1" style="width: 100%;z-index:100;">
+      <div class="container">
+          <div class="row justify-content-center align-items-center">
+              <div class="col-md-2 align-self-center" style="text-align: center;">
+                  <img id="logoPrograma" src="img/logoPrograma.png"/>
+              </div>
+              <div class="col-md-2 mobile" style="text-align: center;">
+                <img id="logoAporte" src="./img/logoAporte.png" alt="">
+              </div>
+              <div class="col-md-7 align-self-left">
+                  <b>Tipo:</b> Programa de Aprendizaje Combinado: Presencial - Online Sincrónico y Asincrónico<br />
+                  <b>Financiamiento:</b> SENCE<br />
+                  <b>Duración:</b> 3 semanas<br />
+                  <b>Cantidad Mínima: </b>15 personas<br />
+                  <b>Objetivo:</b> ---------------------------------------
+              </div>
+              <div class="col-md-2 desktop">
+                <img id="logoAporte" src="./img/logoAporte.png" alt="">
+              </div>
           </div>
-          <div class="col-md-2 desktop" style="margin-top: auto;margin-bottom: auto;text-align:center;">
-            <img id="logoAporte" src="img/logoAporte.png"/>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-6 align-self-center" style="text-align: center; padding: 0% 0%;">
-            <img id="logoPrograma" src="img/logoPrograma.png" />
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-2 desktop" style="margin-top: auto;margin-bottom: auto;text-align:center;">
-            <img id="logoChile" src="img/chile.png" />
-          </div>
-        </div>
       </div>
-    </section>
+  </section>
     <section id="contenedor2">
       <div class="container">
         <div id="contLogo" class="row">

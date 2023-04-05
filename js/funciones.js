@@ -1,8 +1,8 @@
 $(document).ready(function(){
     var logoWidth = 0;
-    let logoAporte = new Image(); logoAporte.src = 'img/logoAporteCol.png';
+    /*let logoAporte = new Image(); logoAporte.src = 'img/logoAporteCol.png';
     let logoAporte_n = new Image(); logoAporte_n.src = 'img/logoAporte.png';
-    $('#logoAporte').hover(function(){$(this).attr('src',logoAporte.src);},function(){$(this).attr('src',logoAporte_n.src);});
+    $('#logoAporte').hover(function(){$(this).attr('src',logoAporte.src);},function(){$(this).attr('src',logoAporte_n.src);});*/
     $('#carruselCursos li').hover(function(){
         $("#carruselCursos").css("overflow-x","visible");
         logoWidth = $(this).find('.title').children('img').width();
