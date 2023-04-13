@@ -26,3 +26,13 @@ $(document).ready(function(){
 function readjustPosition(){
     $(".card .wrapper").css("min-height",$("#carruselCursos").height()-$("#carruselCursos").height()*0.02);
 }
+
+function enviaForm(){
+    if($("#Nombre").val() != "" && $("#eMail").val() != "" && $("#telefono").val() != "") {
+        $.post("https://grupoaporte.com/programasaprendizajecombinado/solicitaUsuario.php", $('#matricula').serialize(), function(result){
+            alert(result);
+        }); 
+    }
+    else   
+        alert("Debe completar todos los campos");  
+}

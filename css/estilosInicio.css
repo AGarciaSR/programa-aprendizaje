@@ -52,7 +52,7 @@ h1#tituloCoaches{margin-top: 10%;}
 .col-md-3{padding:0;}
 #carruselLogos{background:black;height:fit-content;padding: 1% 0%;}
 .splide__slide{text-align: center; align-self: center;}
-#carruselCursos{height:20%;overflow-x:hidden;width:100%;-ms-overflow-style: none;scrollbar-width: none;}
+#carruselCursos{height:20%;width:100%;-ms-overflow-style: none;scrollbar-width: none;}
 #carruselCursos::-webkit-scrollbar {display: none;}
 #carruselCursos .splide__track{overflow: visible;}
 #carruselCursos li{transition-duration: 1s;padding: 0% 1%;}
@@ -82,12 +82,18 @@ div.sence span{background: linear-gradient(to left, #00FFA3, #DC1FFF);background
 #footer span.nombre:hover{animation-name: moveBackground;animation-duration: 4s;animation-iteration-count: infinite;animation-direction: alternate;}
 .logosFinales{text-align: center;padding: 0.5% 0;}
 .logosFinales img{width:50%;}
+.ayudaConcepto{background: #007aff;color: black;padding: 0px 0.4em;border-radius: 30px;cursor: help;font-size:0.8em;}
+.ayudaConcepto:hover{background: white;}
 
 .card{border: none;}
 .wrapper{min-height: fit-content !important;}
 .splide__arrow{border: 1px solid white !important;background: none;}
 .splide__arrow--next {right: -3em !important;}
 .splide__arrow--prev {left: -3em !important;}
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-track {background: #f1f1f1;}
+::-webkit-scrollbar-thumb {background: #007aff;}
+::-webkit-scrollbar-thumb:hover {background: #0059b8;}
 
 li{opacity:0;}
 li.is-visible{opacity:1;}
@@ -318,7 +324,7 @@ input[type=checkbox]
     .extra{margin-top: 0 !important;}
     img#logoChile{width:20%;}
     div#flujograma{margin-top: 15%;margin-bottom: 15%;}
-    #carruselCursos{height: 13%;}
+    #carruselCursos{height: 25%;}
     #accesoCursoCont{margin-top: 4%;}
     .row{margin:0;}
     #caracteristicas{padding: 0;}
