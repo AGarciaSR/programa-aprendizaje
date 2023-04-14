@@ -1,3 +1,5 @@
+var elems = ["Curso en Línea","Webinars","Talleres Presenciales","Coaching","Certificado Digital"];
+var expls = ["Aquí irá la explicación del curso en línea","Aquí irá la explicación de Webinars","Aquí irá la explicación de Talleres Presenciales","Aquí irá la explicación de Coaching","Aquí irá la explicación de Certificado Digital"];
 $(document).ready(function(){
     var logoWidth = 0;
     /*let logoAporte = new Image(); logoAporte.src = 'img/logoAporteCol.png';
@@ -28,11 +30,16 @@ function readjustPosition(){
 }
 
 function enviaForm(){
-    if($("#Nombre").val() != "" && $("#eMail").val() != "" && $("#telefono").val() != "") {
+    if($("#Nombre").val() != "" && $("#Empresa").val() && $("#Cargo").val() && $("#eMail").val() != "" && $("#telefono").val() != "") {
         $.post("https://grupoaporte.com/programasaprendizajecombinado/solicitaUsuario.php", $('#matricula').serialize(), function(result){
             alert(result);
         }); 
     }
     else   
         alert("Debe completar todos los campos");  
+}
+
+function abreExplicativo(elem){
+    $("#explicacionModal").html(elems[elem]);
+    $("#textoExplicativo").html(expls[elem]);
 }

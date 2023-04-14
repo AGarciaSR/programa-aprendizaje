@@ -73,26 +73,26 @@
           <div id="contiene" class="col-md-5 align-self-center">
             <span class="nombre">El programa contiene</span>
             <p class="parrafoIntro">
-              <b>Curso en línea Gestión Personal <span class="ayudaConcepto">?</span></b><br>
+              <b>Curso en línea Gestión Personal <span class="ayudaConcepto" data-toggle="modal" data-target="#modalExplicativo" onclick="abreExplicativo(0)">?</span></b><br>
               Fundamentos base para poder fortalecer y potenciar tus habilidades propias de gestión.
             </p>
             <p class="parrafoIntro">
-              <b>Webinars <span class="ayudaConcepto">?</span></b><br>
+              <b>Webinars <span class="ayudaConcepto" data-toggle="modal" data-target="#modalExplicativo" onclick="abreExplicativo(1)">?</span></b><br>
               3 webinars sincrónicos liderados por coaches expertos para resolver dudas, aumentar y expandir los aprendizajes de autogestión a nivel grupal.
             </p>
             <p class="parrafoIntro">
-              <b>Talleres Presenciales <span class="ayudaConcepto">?</span></b><br>
+              <b>Talleres Presenciales <span class="ayudaConcepto" data-toggle="modal" data-target="#modalExplicativo" onclick="abreExplicativo(2)">?</span></b><br>
               El programa cuenta con 2 talleres de hasta 4 horas:<br>
               - Self Management: Actitud / accountability follow up.<br>
               - Toolkit: Herramientas / Implementación y Plan de acción.
             </p>
             <p class="parrafoIntro">
-              <b>Coaching <span class="ayudaConcepto">?</span></b><br>
+              <b>Coaching <span class="ayudaConcepto" data-toggle="modal" data-target="#modalExplicativo" onclick="abreExplicativo(3)">?</span></b><br>
               Test de personalidad para proceso de coaching.<br>
               "Actioncoach", uno por paciente, enfocado en brechas individuales.
             </p>
             <p class="parrafoIntro">
-              <b>Certificado Digital <span class="ayudaConcepto">?</span></b>
+              <b>Certificado Digital <span class="ayudaConcepto" data-toggle="modal" data-target="#modalExplicativo" onclick="abreExplicativo(4)">?</span></b>
             </p>
           </div>
           <div id="flujograma" class="col-md-7 align-self-center" style="text-align: center; padding: 0% 0%;">
@@ -221,19 +221,24 @@
       </div>
     </section>
     <div class="modal fade" id="modalAccesoCurso" tabindex="-1" role="dialog" aria-labelledby="tituloModal" aria-hidden="true">
-      <div class="modal-dialog" role="document">
+      <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h2 class="modal-title" id="tituloModal">Solicita acceso a este curso</h2>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
           </div>
           <div class="modal-body">
             Con estos datos generaremos un usuario para ti y podrás acceder al curso por 3 días.
             <form id="matricula" method="POST" autocomplete="off">
               <div class="wrap-input100 validate-input" data-validate = "Introduce tu nombre completo">
                   <input id="Nombre" class="input100" type="text" name="Nombre" placeholder="Nombre y apellidos" required value=""/>
+                  <span class="focus-input100"></span>
+              </div>
+              <div class="wrap-input100 validate-input" data-validate = "Indícanos el nombre de tu empresa">
+                  <input id="Empresa" class="input100" type="text" name="Empresa" placeholder="Nombre de la empresa" required value=""/>
+                  <span class="focus-input100"></span>
+              </div>
+              <div class="wrap-input100 validate-input" data-validate = "Introduce tu cargo en la empresa">
+                  <input id="Cargo" class="input100" type="text" name="Cargo" placeholder="Cargo en la empresa" required value=""/>
                   <span class="focus-input100"></span>
               </div>
               <div class="wrap-input100 validate-input" data-validate = "Introduce un e-Mail válido">
@@ -250,6 +255,21 @@
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
             <button type="button" class="btn btn-primary"  name="buttonLogin" id="buttonLogin"onclick="enviaForm()">Enviar datos</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalExplicativo" tabindex="-1" role="dialog" aria-labelledby="explicacionModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="explicacionModal"></h2>
+          </div>
+          <div class="modal-body" id="textoExplicativo">
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
