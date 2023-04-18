@@ -84,6 +84,16 @@ div.sence span{background: linear-gradient(to left, #00FFA3, #DC1FFF);background
 .logosFinales img{width:50%;}
 .ayudaConcepto{background: #007aff;color: black;padding: 0px 0.4em;border-radius: 30px;cursor: help;font-size:0.8em;}
 .ayudaConcepto:hover{background: white;}
+#modalVideo{left:-94%;animation-duration: 2s;animation-fill-mode: forwards;}
+#modalVideo button{background: linear-gradient(126deg, rgba(255,55,56,0.5) 0%, rgba(255,55,56,1) 18%, rgba(245,11,172,1) 45%, rgba(247,20,148,1) 57%, rgba(255,55,56,1) 76%, rgba(255,55,56,0.5) 100%);margin-top:0%;border: none;}
+#modalVideo>div{max-width:80%;width:80%;border-radius: 15px;}
+#modalVideo .modal-header{justify-content: end;border-bottom: none;padding: 0 5em;}
+#modalVideo .modal-content{background-color: transparent;border: none;}
+.slideIn{animation-name: slideModalVideo;}
+.slideOut{animation-name: slideModalVideoOut;}
+#btnVideo{position: absolute;width: 4%;height: 100%;display: flex;margin-left: -6%;align-items: center;}
+#btnVideo img{cursor: pointer;}
+#backVideo{opacity:0;transition-duration: 0.5s;z-index:-1;}
 
 .card{border: none;}
 .wrapper{min-height: fit-content !important;}

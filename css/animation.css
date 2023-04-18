@@ -1,4 +1,14 @@
 @keyframes moveBackground {
-    from {background-position: 0;}
-    to {background-position: 500%;}
-  }
+  from {background-position: 0;}
+  to {background-position: 500%;}
+}
+
+@keyframes slideModalVideo{
+  from {left: -94%;}
+  to {left: 0%;display:block;}
+}
+
+@keyframes slideModalVideoOut{
+  from {left: 0%;}
+  to {left: -94%;display:none;}
+}
