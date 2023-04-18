@@ -92,7 +92,7 @@ div.sence span{background: linear-gradient(to left, #00FFA3, #DC1FFF);background
 .slideIn{animation-name: slideModalVideo;}
 .slideOut{animation-name: slideModalVideoOut;}
 #btnVideo{position: absolute;width: 4%;height: 100%;display: flex;margin-left: -6%;align-items: center;}
-#btnVideo img{cursor: pointer;}
+#btnVideo img{cursor: pointer;width:100%;}
 #backVideo{opacity:0;transition-duration: 0.5s;z-index:-1;}
 
 .card{border: none;}
@@ -334,11 +334,17 @@ input[type=checkbox]
     .extra{margin-top: 0 !important;}
     img#logoChile{width:20%;}
     div#flujograma{margin-top: 15%;margin-bottom: 15%;}
-    #carruselCursos{height: 25%;}
+    #carruselCursos{height: 25%;overflow-x: hidden;}
     #accesoCursoCont{margin-top: 4%;}
     .row{margin:0;}
     #caracteristicas{padding: 0;}
     .input100{font-size: 1em;}
+    #footer span.nombre {padding: 1% 4%;font-size: 0.6em;}
+    #backVideo{width: 100%;height: 100%;}
+    #btnVideo{width: 100%;text-align: center;display: block;position: relative;margin-left:0;}
+    #btnVideo img{width:15%;}
+    #modalVideo>div {max-width: 100%;width: 94%;}
+    #modalVideo .modal-header {padding: 0 1em;}
 }
 @media screen and (min-width: 500px){
     .mobile{display:none !important;}
