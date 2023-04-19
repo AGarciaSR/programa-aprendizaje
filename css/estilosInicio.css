@@ -2,14 +2,6 @@ body{font-family: 'ITC Avant Garde Gothic' !important;height:fit-content;margin:
 img#logo{width:18%;position: absolute;right: 5%;top: 8%;}
 div#contContenido{opacity:0.4;border-radius: 60px 60px 60px 60px;opacity: 0;width: 91.5%;padding: 2.05%;position: relative;left: 2%;margin-bottom: 2%;color: white;transition-duration: 0.9s;}
 div#contCursos{margin-top: 1%;margin-left: 5%;width: 90%;font-size: 1.5vw;}
-div#contFormulario{position: absolute;width: 100%;}
-div#contFormulario h2{color: white;text-align: center;font-size: 2vw;}
-div#contScroll{position: relative;width: 100%;height: 100%;overflow-y: scroll;padding-right: 17px;box-sizing: content-box;}
-div#recorrido{margin: 0;width: 65%;position: absolute;height: 0px;border: 2px solid #39b54a;top: 50%;margin-top: -1px;max-width:inherit !important;}
-div#rowEtapas1,div#rowEtapas2,div#rowEtapas3{font-family: 'ITC Avant Garde Gothic';position:relative;}
-div#rowEtapas1 div{text-align: center;border: 4px solid #39b54a;border-radius: 121px 121px 0px 0px;padding: 3% 0% 0% 0%;border-bottom: none;margin: 0% 1%;max-width:13%;}
-div#rowEtapas2 div{margin: 0% 1%;max-width:13%;}
-div#rowEtapas3 div{text-align: center;border: 4px solid #39b54a;border-radius: 0px 0px 121px 121px;padding: 0% 0% 3% 0%;border-top: none;margin: 0% 1%;max-width:13%;}
 div#titulo{color: white;font-family: 'ITC Avant Garde Gothic';font-size: 3vw;width: 90%;position: relative;margin-top: 0%;left: 5%;line-height: 100%;}
 div#titulo span{font-family: 'ITC Avant Garde Gothic';}
 div.contenidos{display:none;opacity:0;}
@@ -18,20 +10,10 @@ div.contenidos h5{font-family: 'ITC Avant Garde Gothic';font-size: 1.4vw;}
 div.contenidos ul{font-family: 'ITC Avant Garde Gothic';font-size: 1.4vw;}
 div.cursos{font-family: 'ITC Avant Garde Gothic';padding: 1% 0%;color: white;border-radius: 45px 45px 45px 45px;cursor: pointer;display: inline-block;position: relative;width: 32%;transition-duration: 0.9s;text-align: center;}
 div.cursos span{font-family: 'ITC Avant Garde Gothic';}
-div.cursos img.flecha{position: absolute;right: 3%;width: 8%;bottom: 10%;}
-div.preguntasFrecuentes{position: absolute;right: 4%;width: 26%;background: rgba(0, 0, 0, 0.64);font-size:1.1vw;padding: 2%;color: rgb(255, 255, 255);top: 17%;border-radius: 25px;}
-div.preguntasFrecuentes h1{margin-top:0;}
-div.preguntasFrecuentes h1.incluye{margin-top:1em;}
 form{color: white;width: 100%;font-size: 1.2em;margin-top: 5%;}
 form h4{font-size: 1.2vw;}
-img#cursosAbiertos{width:100%;}
 img#logoAporte{width: 100%;}
-img#logoChile{width: 48%;margin-right: 0%;margin-top: 0.5%;}
 img#logoPrograma{width:100%;}
-img#marcoTL{top:0;left:0;}
-img#marcoTR{top:0;right:0;}
-img#marcoBL{bottom:0;left:0;}
-img#marcoBR{bottom:0;right:0;}
 #contenedor1{color:white;margin-top: 2%;line-height: 120%;}
 #contenedor1 .container, #contenedor2 .container{max-width: 90% !important;padding: 10px;font-size: 1em;}
 #contenedor1 b{color:#007aff}
@@ -48,9 +30,7 @@ a{font-family: 'ITC Avant Garde Gothic' !important;}
 div#personalM{padding-top:25%;}
 div.contacto{width: 70%;margin: 0 auto;}
 .col-centered{display: block;margin-left: auto;margin-right: auto;text-align: center;}
-h1#tituloCoaches{margin-top: 10%;}
 .col-md-3{padding:0;}
-#carruselLogos{background:black;height:fit-content;padding: 1% 0%;}
 .splide__slide{text-align: center; align-self: center;}
 #carruselCursos{height:20%;width:100%;-ms-overflow-style: none;scrollbar-width: none;}
 #carruselCursos::-webkit-scrollbar {display: none;}
@@ -69,10 +49,6 @@ section#contacto{background: black;color:white;position:relative;z-index:0;font-
 section#contacto a{font-size: initial;color:white;}
 .btn{transition-duration: 0.5s !important;transition:inherit;margin-top:5%;font-size:1.1em;font-weight:bold;}
 .btn:hover{transform: scale(1.3);margin-top:5%;}
-div.sence{background: linear-gradient(to right, #00FFA3, #DC1FFF);height: fit-content;max-width: 92%;margin-top:3px;padding: 0.1em 0.6em;position: relative;z-index: 1;border-radius: 15px;}
-div.sence div::before {content: "";position: absolute;left: 1px;right: 1px;top: 1px;bottom: 1px;border-radius: 15px;background-color: white;z-index: -1;transition: 200ms;}
-div.sence div::after {content: attr(data);font-size: 16px;background: linear-gradient(to left, #00FFA3, #DC1FFF);-webkit-background-clip: text;color: transparent;transition: 200ms}
-div.sence span{background: linear-gradient(to left, #00FFA3, #DC1FFF);background-clip: text;-webkit-background-clip: text;color: transparent;font-weight: bold;font-size: 0.85em;}
 #contacto .cell1{text-align:center;}
 #contacto .cell2{text-align:center;}
 #contacto .cell3{text-align:center;}
@@ -115,154 +91,17 @@ span.nombre {color: white !important;border: 2px solid #007aff;border-radius: 40
 h1,h3{font-family: 'ITC Avant Garde Gothic';width: 100%;}
 h1 b{font-weight: 600;}
 p{font-family: 'ITC Avant Garde Gothic';color:white;}
-p.etapas{width: fit-content;padding: 0% 12%;color: white;border-radius: 70px;font-weight: bold;background-color: #39b54a;font-size: 1.3vw;display: inline-block;font-family: 'ITC Avant Garde Gothic';margin: 5% 0%;}
-p.tituloEtapa{font-size: 1.5vw;font-family: 'ITC Avant Garde Gothic';font-weight: 700;line-height: 120%;}
 p.parrafoIntro{font-family: 'ITC Avant Garde Gothic';font-size:1em;text-align: justify;margin-top:2%;line-height: 1.3;}
 p.parrafoIntro b, strong{color:#007aff;}
 h1{font-size:1em;margin-bottom:2%;text-align: left;color: black;}
-#carruselLogos h1{color: white;text-align: center;font-size: 1.7em;font-weight: bold;margin-bottom: 1%;}
 h3{font-size: 2.2rem;}
 li{color:white;text-align: left;font-size: 0.9vw;}
-ul.princ{padding-left: 15%;}
-ul.princ li{list-style:none;background-image: url('../img/tick.png');background-repeat: no-repeat;background-position: left center;background-size: 20px;padding-left:30px;font-size:150%;}
-ul.webinar{list-style: none;}
-ul.webinar li::before{content: "\2022";color: #ccff01;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;}
 
-
-
-
-    #return-to-top {
-        position: fixed;
-        bottom: 80px;
-        right: 20px;
-        cursor: pointer;
-        background: rgb(0, 0, 0);
-        background: rgba(0, 0, 0, 0.7);
-        padding: 0.5% 1%;
-        font-size: 130%;
-        border: 2px solid white;
-        font-family: 'ITC Avant Garde Gothic' !important;
-        color: white;
-        display: block;
-        text-decoration: none;
-        -webkit-border-radius: 35px;
-        -moz-border-radius: 35px;
-        border-radius: 35px;
-        -webkit-transition: all 0.3s linear;
-        -moz-transition: all 0.3s ease;
-        -ms-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-        animation-name: inscribete;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-    }
-    #return-to-top i {
-        color: #fff;
-        margin: 0;
-        position: relative;
-        left: 16px;
-        top: 13px;
-        font-size: 19px;
-        -webkit-transition: all 0.3s ease;
-        -moz-transition: all 0.3s ease;
-        -ms-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-    }
-    #return-to-top:hover {
-        background: #007aff;
-    }
-    #return-to-top:hover i {
-        color: #fff;
-        top: 5px;
-    }
-/*.seleccionado{background: rgba(0,0,0,0.4) !important;color: #ec2b06 !important;border-radius: 45px 45px 0px 0px !important;}*/
-.seleccionado span{color: white !important;}
-.flechaSeleccionado{transition-duration: 0.8s;transform: rotate(0deg);-webkit-transform: rotate(0deg);}
-.flechaDeseleccionado{transition-duration: 0.8s;transform: rotate(-94deg);-webkit-transform: rotate(-94deg);}
-.botones{width: 40%;text-align: center;margin-left:26%;}
-.myButton2 {
-	background-color:#000;
-	border-radius:28px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#FFF;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
-}
-.myButton1 {
-	background-color:#ff8407;
-	border-radius:28px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
-}
-.myButton3 {
-	background-color:#fbea00;
-	border-radius:28px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#000000;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
-}
-input[type=checkbox]
-{
-  /* Double-sized Checkboxes */
-  -ms-transform: scale(2); /* IE */
-  -moz-transform: scale(2); /* FF */
-  -webkit-transform: scale(2); /* Safari and Chrome */
-  -o-transform: scale(2); /* Opera */
-  transform: scale(2);
-  padding: 10px;
-  margin-right: 3%;
-}
 @media(min-width: 1200px){
     /*.container{max-width: 1195px !important;}*/
     .container{max-width: 1300px !important;}
 }
 
-.myButton {
-    background-color:#ff4000;
-    border-radius:28px;
-    border:1px solid #ff4000;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial;
-    font-size:17px;
-    padding: 5% 10%;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
-}
-/*.myButton:hover {
-    background-color:#ffffff;
-    color:#FF3F00;
-}*/
-.myButton:active {
-    position:relative;
-    top:1px;
-}
 .whatsapp {
     background-color: #007aff;
     border-radius: 60px;
